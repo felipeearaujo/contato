@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Helvetida', sans-serif;
+}
+
+
+.contact-group{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+
+input, select, textarea, .div-send{
+    width: 30%;
+    margin-bottom: 10px;
+    
+}
+
+input[type="checkbox"]{
+    width: 3%;
+}
+label{
+    font-weight: bold;
+}
+
+button{
+    width: 5%;
+}

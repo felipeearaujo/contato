@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <main class="main-container">
+        <form action="" class="form-contact">
+            <fieldset class="contact-group">
+                <legend class="contact-group">Entre em Contato</legend>
+                <select name="assunto" id="assunto"> <span>Assunto</span>
+                    <option value="suporte">Suporte</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+                <label for="name">Nome completo:</label>
+                <input type="text" name="name" id="name" placeholder="  Seu nome">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="  Seu e-mail">
+                <label for="">Mensagem:</label> 
+                <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
+                <div class="div-send">
+                    <input type="checkbox" name="send-email" id="send-email">
+                    Aceito receber novidades por e-mail
+                </div>
+                <button class="button">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
